@@ -1,0 +1,296 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #E3A72F;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* ESTILO CABEÇALHO */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Ação ao passar o mouse */
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+/* Ação ao passar o mouse */
+header a:hover{
+    color: #fff;
+    transform: scale(1.15);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* Estilo Botão */
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #e3a72f;
+    transform: scale(1.15);
+}
+
+/* ESTILO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 48px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #e3a72f;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0px;
+}
+
+.topo-do-site h2{
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h2 span{
+    color: #e3a72f;
+}
+
+/* ESTILO DO CANVA */
+
+.canva h3{
+    color: #fff;
+    font-size: 48px;
+    line-height: 40px;
+}
+
+.canva h3 span{
+    color: #e3a72f;
+}
+
+section.canva{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px;
+}
+
+section.canva .flex{
+    justify-content: space-around;
+}
+
+.img-canva{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.img-canva:hover{
+    background-position: 100% 100%;
+}
+
+/* videos SLAM */
+.txt-videos-slam{
+    margin-left: 60px;
+    margin-right: 55px;
+}
+
+section.videos-slam{
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-videos-slam h1{
+    color: #fff;
+    font-size: 48px;
+    line-height: 40px;
+}
+
+.txt-videos-slam h1 span{
+    color: #e3a72f;
+}
+
+.txt-videos-slam p{
+    color: #fff;
+    margin: 40px 0px;
+}
+
+.txt-videos-slam h2{
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.txt-videos-slam h2 span{
+    color: #e3a72f;
+}
+
+.container-slam1{
+    float: left;
+    margin-right: 15px;
+}
+
+.container-slam2{
+    float: center;
+    margin-right: 15px;
+}
+
+.container-slam3{
+    float: right;
+}
+/*borda das imagens - SLAM*/
+.container-slam1 a img{
+    border-radius: 20px;
+}
+
+.container-slam2 a img{
+    border-radius: 20px;
+}
+
+.container-slam3 a img{
+    border-radius: 20px;
+}
+/*ação de passar o mouse - SLAM*/
+/*nome link insta - SLAM*/
+.txt-videos-slam .slam-link span{
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+.txt-videos-slam .slam-link span:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+/*nome link insta - PICANHARIA*/
+.txt-videos-slam .pda-link h2{
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+.txt-videos-slam .pda-link h2:hover{
+    color: rgb(255, 145, 0);
+    transform: scale(1.05);
+}
+/*video 1 */
+.container-slam1 a{
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+body .container-slam1 a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+/*video 2 */
+.container-slam2 a{
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+body .container-slam2 a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+/*video 3 */
+.container-slam3 a{
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+body .container-slam3 a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+/* texto do final dos videos - PICANHARIA*/
+.txt-videos-pda {
+    color: white;
+    font-size: 20px;
+}
+
+/*nome link insta - BAR DO PESCADOR*/
+.txt-videos-slam .bdp-link h2{
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+.txt-videos-slam .bdp-link h2:hover{
+    color: rgb(0, 81, 255);
+    transform: scale(1.05);
+}
+/* texto do final dos videos - BAR DO PESCADOR*/
+.txt-videos-bdp {
+    color: white;
+    font-size: 20px;
+}
+/*nome link insta - OLIVA D'ORO*/
+.txt-videos-slam .ovd-link h2{
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+.txt-videos-slam .ovd-link h2:hover{
+    color: rgb(109, 226, 0);
+    transform: scale(1.05);
+}
+/* texto do final dos videos - OLIVA D'ORO*/
+.txt-videos-ovd {
+    color: white;
+    font-size: 20px;
+}
